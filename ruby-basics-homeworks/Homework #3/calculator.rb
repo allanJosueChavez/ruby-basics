@@ -12,7 +12,7 @@ def init
   puts "5- PERCENT"
   puts "6- ROOTS"
   puts "7- POWERS"
-
+  puts "8- EXIT"
   valid = false
   while valid != true
     valid = true
@@ -50,6 +50,7 @@ def init
       printbar
       puts "- GET A POWER:"
       power
+    when "8" then goodbye
     else
       puts "Your input was invalid, please try again:)"
       valid = false
@@ -96,6 +97,7 @@ end
 def goodbye
   puts "Finishing execution..."
   puts "Goodbye!"
+  exit
 end
 
 init
