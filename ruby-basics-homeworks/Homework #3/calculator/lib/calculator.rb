@@ -9,6 +9,7 @@ module Calculator
   # Sorry for now we only support two digits. We are working on the updates!
   def sum(first_number, second_number)
     puts "=> #{first_number} + #{second_number} = #{first_number + second_number}"
+    #Writing an irrelevant comment, just to verify if my SSH KEY worked.
   end
 
   def substract(first_number, second_number)
